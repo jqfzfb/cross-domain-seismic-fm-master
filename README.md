@@ -20,37 +20,38 @@ Most deep learning models for seismic interpretation rely on task-specific archi
 
 ## Installation
 
+```bash
 git clone https://github.com/jqfzfb/cross-domain-seismic-fm-master.git
 cd cross-domain-seismic-fm-master
 pip install -r requirements.txt
-
-yaml
-Copy code
-
-## Datasets
-
+Datasets
 Example seismic data used in the manuscript can be downloaded from:
 
 Figshare DOI: https://doi.org/10.6084/m9.figshare.30702569.v1
 
 Other benchmark datasets:
-- Netherlands F3 block: https://zenodo.org/records/1471548
-- Parihaka 3D: https://wiki.seg.org/wiki/Parihaka-3D
-- Teapot Dome dataset (SEG open data)
 
-## Pretrained SAM Weights
+Netherlands F3 block: https://zenodo.org/records/1471548
 
+Parihaka 3D: https://wiki.seg.org/wiki/Parihaka-3D
+
+Teapot Dome dataset (SEG open data)
+
+Pretrained SAM Weights
 SAM (Segment Anything Model) pretrained weights are available from:
 
 https://github.com/facebookresearch/segment-anything
 
 Place downloaded checkpoints under:
 
+bash
+Copy code
 cross-domain-seismic-fm-master/sam_backbones/
-
-## Acknowledgements
-
+Acknowledgements
 This project builds upon:
-- SAM (Meta AI)
-- PyTorch
-- Public seismic datasets (F3, Parihaka, Teapot Dome)
+
+SAM (Meta AI)
+
+PyTorch
+
+Public seismic datasets (F3, Parihaka, Teapot Dome)
