@@ -1,6 +1,6 @@
 # cross-domain-seismic-fm-master
 <p align="center">
-  <img src="workflow.png" alt="Workflow" width="480">
+  <img src="workflow.png" alt="Workflow" width="640">
 </p>
 
 Cross-domain transfer learning framework that adapts vision foundation models for seismic interpretation. This repository provides the implementation of our seismic-to-vision bridging strategy, efficient adaptation using LoRA and prefix tuning, geological prompting for structural consistency, and task-adaptive decoders for seismic facies segmentation and related interpretation tasks.
