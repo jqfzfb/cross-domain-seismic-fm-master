@@ -32,7 +32,7 @@ Figshare DOI: https://doi.org/10.6084/m9.figshare.30702569.v1
 Other benchmark datasets:
 - Netherlands F3 block: https://zenodo.org/records/1471548
 - Parihaka 3D: https://wiki.seg.org/wiki/Parihaka-3D
-- Teapot Dome dataset (SEG open data)
+- Teapot Dome dataset: https://wiki.seg.org/wiki/Teapot_dome_3D_survey
 
 ## Pretrained SAM Weights
 
