@@ -24,6 +24,8 @@ Most deep learning models for seismic interpretation rely on task-specific archi
 git clone https://github.com/jqfzfb/cross-domain-seismic-fm-master.git
 cd cross-domain-seismic-fm-master
 pip install -r requirements.txt
+```bash
+
 Datasets
 Example seismic data used in the manuscript can be downloaded from:
 
